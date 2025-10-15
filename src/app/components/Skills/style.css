@@ -1,0 +1,57 @@
+.techsSkills {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 10px;
+    place-items: center;
+    width: 100vw;
+}
+
+.techSkills {
+    width: 28vw;
+    height: auto;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #98DFEA;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Skills {
+    width: 100vw;
+    text-align: center;
+    margin-top: 50px;
+    h1 {
+        font-size: 7vw;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .techsSkills {
+        grid-template-columns: repeat(4, 3fr);
+    }
+    .techSkills {
+        width: 15vw;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .techsSkills {
+        grid-template-columns: repeat(5, 3fr);
+        width: 80vw;
+    }
+    .techSkills {
+        width: 15vw;
+    }
+    .Skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+            font-size: 65px;
+        }
+    }
+}

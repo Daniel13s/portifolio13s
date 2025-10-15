@@ -1,0 +1,16 @@
+.light {
+    background-color: aliceblue;
+    color: black;
+    .projetos{
+        background-color: #bbbbd4;
+    }
+}
+
+.dark {
+    background-color: #1B1B1B;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: space-between;
+}

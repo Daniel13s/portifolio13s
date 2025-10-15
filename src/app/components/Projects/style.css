@@ -1,0 +1,44 @@
+.projects {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+    h1 {
+        font-size: 7vw;
+    }
+}
+
+.projetos {
+    height: auto;
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00004e;
+    border-radius: 100px;
+    text-align: center;
+    padding: 10px;
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+    }
+    h1 {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        font-size: 6vw;
+        font-weight: 100;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .projects {
+        h1 {
+            font-size: 65px;
+        }
+    }
+    .projetos {
+        width: 75vw;
+    }
+}
