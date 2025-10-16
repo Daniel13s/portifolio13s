@@ -1,8 +1,19 @@
 .light {
-    background-color: aliceblue;
+    background-color: #ebebeb;
     color: black;
     .projetos{
-        background-color: #bbbbd4;
+        background-color: #ebebeb;
+    }
+    .techSkills {
+        background-color: #ebebeb;
+        color: black;
+    }
+    .footer {
+        color: black;
+        border-top: 1px solid black;
+        .line {
+            background-color: black;
+        }
     }
 }
 
@@ -13,4 +24,7 @@
     flex-direction: column;
     gap: 100px;
     align-items: space-between;
+    .footer {
+        color: white;
+    }
 }
