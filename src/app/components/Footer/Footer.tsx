@@ -6,7 +6,7 @@ export default function Footer() {
     const logoDaniel = logo.src
     return (
         <div className="footer">
-            <p>©Daniel Silva Cardoso</p>
+            <p>©Daniel Silva</p>
             <div className="line"></div>
             <img src={logoDaniel} alt="" />
         </div>
