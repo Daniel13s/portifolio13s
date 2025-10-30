@@ -19,8 +19,8 @@
     border-top: solid 1px;
     border-radius: 20px;
     input {
-        width: 70vw;
-        height: 7vw;
+        width: 85vw;
+        height: 10vw;
         border-radius: 50px;
         border: none;
         padding: 20px;
@@ -33,6 +33,9 @@
         border: none;
         border-radius: 50px;
         font-size: 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     h1 {
         font-size: 7vw;
