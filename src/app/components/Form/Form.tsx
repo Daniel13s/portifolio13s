@@ -36,7 +36,7 @@ export default function Form() {
             <input style={{borderColor: theme === "light" ? "black" : "white"}} type="text" placeholder="Digite oque desejar" onChange={e => setMessage(e.target.value)} />
 
             <button style={{backgroundColor: theme === "dark" ? "white" : "black"}} onClick={sendEmail}>{loading ? <div className="loadingSpinner">
-                <CgSpinner size={50} color={theme === "light" ? "white" : "black"} />
+                <CgSpinner color={theme === "light" ? "white" : "black"} />
             </div> : <MdEmail color={theme === "light" ? "white" : "black"} />}</button>
         </div>
     )
