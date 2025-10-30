@@ -9,6 +9,7 @@ import Skills from "./components/Skills/Skills";
 import "./page.css"
 import themeContext from "./context/ThemeContext";
 import Footer from "./components/Footer/Footer";
+import Form from "./components/Form/Form";
 
 export default function Page() {
 
@@ -19,6 +20,7 @@ export default function Page() {
       <AboutMe />
       <Projects />
       <Skills />
+      <Form />
       <Footer />
     </div>
   );
