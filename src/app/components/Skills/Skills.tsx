@@ -73,12 +73,12 @@ export default function Skills() {
     ]
     return (
         <div className="Skills">
-            <h1>Habilidades</h1>
+            <h2>Habilidades</h2>
             <div className="techsSkills">
                 {techs.map((tech: any) => (
                     <div key={tech.id} className="techSkills">
                         {tech.icon}
-                        <h2>{tech.name}</h2>
+                        <h3>{tech.name}</h3>
                     </div>
                 ))}
             </div>
