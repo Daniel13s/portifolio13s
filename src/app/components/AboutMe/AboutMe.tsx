@@ -3,7 +3,7 @@ import './style.css'
 export default function AboutMe() {
     return (
         <div className='aboutMe'>
-            <h1>Sobre Mim</h1>
+            <h2>Sobre Mim</h1>
             <p>Sou um Web desenvolvedor apaixonado por transformar ideias em interfaces funcionais, responsivas e atraentes, atualmente resíduo em Cajazeiras-PB. Tenho foco em HTML, CSS/TailWind, JavaScript/TypeScript e React/Next.js, buscando sempre unir boa experiência do usuário com código limpo e eficiente.
 <br />
 <br />
