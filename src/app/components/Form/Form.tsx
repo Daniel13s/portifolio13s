@@ -30,7 +30,7 @@ export default function Form() {
     }
     return (
         <div className="contato">
-            <h1>Contato</h1>
+            <h2>Contato</h2>
             <input style={{borderColor: theme === "light" ? "black" : "white"}} type="text" placeholder="Digite seu nome" onChange={e => setName(e.target.value)} />
             <input style={{borderColor: theme === "light" ? "black" : "white"}} type="email" placeholder="Digite seu email" onChange={e => setEmail(e.target.value)} />
             <input style={{borderColor: theme === "light" ? "black" : "white"}} type="text" placeholder="Digite oque desejar" onChange={e => setMessage(e.target.value)} />
