@@ -50,7 +50,7 @@ export default function Projects() {
                 <div key={projeto.id} className="projetos">
                     <img src={projeto.refer.src} alt="" />
                     <div>
-                        <h1>{projeto.name}</h1>
+                        <h2>{projeto.name}</h2>
                         <div className="tech">
                             {projeto.react ? <FaReact size={25} /> : null}
                             {projeto.next ? <SiNextdotjs size={25} />: null}
