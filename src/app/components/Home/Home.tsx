@@ -11,8 +11,8 @@ export default function Home() {
     <div className={theme === 'light' ? "HomeLight" : "Home"}>
       <button className="theme" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>{theme === 'dark'? <FaMoon size={30} color='white' /> : <FaSun size={30} color="black" />}</button>
       <section className="Id">
-        <h1>Daniel Silva Cardoso</h1>
-        <p>Front-end Developer</p>
+        <h1>Procura um Web desenvolvedor em Cajazeiras-PB?</h1>
+        <p>Trabalhando a 2 anos como web desenvolvedor wem cajazeiras-PB com a criação de sites e sistemas para empresas.</p>
       </section>
       <div className="Links">
         <a href="https://github.com/Daniel13s" target="_blank">
