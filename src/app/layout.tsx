@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Daniel Silva | Portifólio",
-  description: "Portfólio desenvolvido com o objetivo de apresentar minhas habilidades em criação e desenvolvimento de interfaces web, destacando minha capacidade técnica e criatividade na construção de sites funcionais e atraentes.",
+  title: "Daniel Silva | Web-desenvolvedor em Cajazeiras-PB",
+  description: "Procura um serviço de desenvolvimento de sites em CZ e região? Web-desenvolvimento de qualidade utilizando das melhores tecnologias do mercado.",
   icons: {
     icon: "./favicon.ico"
   },
