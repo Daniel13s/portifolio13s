@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Daniel Silva | Web-desenvolvedor em Cajazeiras-PB",
-  description: "Procura um serviço de desenvolvimento de sites em CZ e região? Web-desenvolvimento de qualidade utilizando das melhores tecnologias do mercado.",
+  title: "Daniel Silva | Web desenvolvedor em Cajazeiras-PB",
+  description: "Procura um serviço de desenvolvimento de sites em CZ e região? Aqui encontra um Web desenvolvedor em Cajazeiras-PB de qualidade utilizando das melhores tecnologias do mercado.",
   icons: {
     icon: "./favicon.ico"
   },
