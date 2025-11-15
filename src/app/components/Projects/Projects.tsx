@@ -45,12 +45,12 @@ export default function Projects() {
     ]
     return (
         <div className="projects">
-            <h1>Projetos</h1>
+            <h2>Projetos</h2>
             {projetos.map((projeto:any) => (
                 <div key={projeto.id} className="projetos">
                     <img src={projeto.refer.src} alt="" />
                     <div>
-                        <h2>{projeto.name}</h2>
+                        <h3>{projeto.name}</h3>
                         <div className="tech">
                             {projeto.react ? <FaReact size={25} /> : null}
                             {projeto.next ? <SiNextdotjs size={25} />: null}
